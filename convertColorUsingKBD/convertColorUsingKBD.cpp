@@ -51,7 +51,7 @@ int main()
 {
 	glfwInit();
 
-	GLFWwindow* window = glfwCreateWindow(640, 480, "TEST", NULL, NULL);
+	GLFWwindow* window = glfwCreateWindow(1920,1080, "TEST", glfwGetPrimaryMonitor(), NULL);
 
 	glfwMakeContextCurrent(window);
 

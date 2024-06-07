@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloGLFW", "HelloGLFW.vcxp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "convertColorUsingKBD", "..\convertColorUsingKBD\convertColorUsingKBD.vcxproj", "{DB80EAEB-F553-4502-9C4F-719AF7F3BFD3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HelloShader", "..\HelloShader\HelloShader.vcxproj", "{6D14F751-7474-4AF5-BA3B-893681F07BCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{DB80EAEB-F553-4502-9C4F-719AF7F3BFD3}.Release|x64.Build.0 = Release|x64
 		{DB80EAEB-F553-4502-9C4F-719AF7F3BFD3}.Release|x86.ActiveCfg = Release|Win32
 		{DB80EAEB-F553-4502-9C4F-719AF7F3BFD3}.Release|x86.Build.0 = Release|Win32
+		{6D14F751-7474-4AF5-BA3B-893681F07BCB}.Debug|x64.ActiveCfg = Debug|x64
+		{6D14F751-7474-4AF5-BA3B-893681F07BCB}.Debug|x64.Build.0 = Debug|x64
+		{6D14F751-7474-4AF5-BA3B-893681F07BCB}.Debug|x86.ActiveCfg = Debug|Win32
+		{6D14F751-7474-4AF5-BA3B-893681F07BCB}.Debug|x86.Build.0 = Debug|Win32
+		{6D14F751-7474-4AF5-BA3B-893681F07BCB}.Release|x64.ActiveCfg = Release|x64
+		{6D14F751-7474-4AF5-BA3B-893681F07BCB}.Release|x64.Build.0 = Release|x64
+		{6D14F751-7474-4AF5-BA3B-893681F07BCB}.Release|x86.ActiveCfg = Release|Win32
+		{6D14F751-7474-4AF5-BA3B-893681F07BCB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
