@@ -127,7 +127,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="HelloShader.cpp" />
+    <ClCompile Include="common.c" />
+    <ClCompile Include="HelloShader.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="colored-tri.frag" />
+    <None Include="colored-tri.vert" />
+    <None Include="layout.frag" />
+    <None Include="layout.vert" />
+    <None Include="simple-tri.frag" />
+    <None Include="simple-tri.vert" />
+    <None Include="uniform-tri.frag" />
+    <None Include="uniform-tri.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

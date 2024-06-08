@@ -15,8 +15,42 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HelloShader.cpp">
+    <ClCompile Include="HelloShader.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="common.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="simple-tri.vert">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="simple-tri.frag">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="layout.vert">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="layout.frag">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="colored-tri.vert">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="colored-tri.frag">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="uniform-tri.vert">
+      <Filter>소스 파일</Filter>
+    </None>
+    <None Include="uniform-tri.frag">
+      <Filter>소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
